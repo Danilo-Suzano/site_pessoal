@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(160, 160, 160);
+}
+
+.nome{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagem > img{
+    justify-content: center;
+    width: 200px;
+    margin-left: 42%; 
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 20px;
+}
+
+.texto > h2{
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+.texto > p{
+    text-align: justify;
+    padding: 0 40px;
+    margin-bottom: 50px;
+}
+
+form{
+    text-align: center;
+}
